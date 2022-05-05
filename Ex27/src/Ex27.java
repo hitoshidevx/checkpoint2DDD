@@ -1,9 +1,11 @@
-import java.io.IOException;
+import java.util.Scanner;
 
 public class Ex27 {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
 		
 		int num, count, resp;
 		
@@ -11,11 +13,9 @@ public class Ex27 {
 			for(count = 1; count <= 10; count++) {
 				resp = num * count;
 				System.out.printf("%d X %d = %d\n", num, count, resp);
-				if(count ==  10) {
-					System.out.println("\nAperte uma tecla\n");
-					System.in.read();
-				}
 			}
+			System.out.println("\nAperte uma tecla\n");
+			sc.nextLine();
 		}
 
 	}
