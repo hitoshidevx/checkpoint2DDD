@@ -25,7 +25,7 @@ public class TesteCliente {
 		String agencia, numero;
 		double saldo;
 		
-		System.out.println("==> Sistema de Cadastro de Alunos <==");
+		System.out.println("==> Sistema de Cadastro de Clientes <==");
 		
 		do {
 			System.out.println("\nEscolha uma opção: \n1 - Incluir Cliente "
